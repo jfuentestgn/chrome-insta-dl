@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Image Downloader",
+    "version": "1.0",
+
+    "description": "Añade un enlace de descarga junto a las fotos de instagram",
+
+    "content_scripts": [{
+        "matches": [ "https://www.instagram.com/*" ],
+        "js": ["content.js"]
+    }]
+}
